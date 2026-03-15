@@ -90,7 +90,28 @@ $result = $par->fetch();
                             <h1 class="display-4"><?php echo $result['name']; ?></h1>
                         </div>
                         <img class="img-fluid rounded w-100 mb-4" src="<?php echo $result['image2']; ?>" alt="Image">
+                        
+                        <h3 class="mb-4">Description du cours</h3>
                         <p><?php echo $result['description']; ?></p>
+                        
+                        <div class="row pt-3">
+                            <div class="col-md-6s mb-4 px-3">
+                                <h4 class="mb-3">Objectifs d'apprentissage</h4>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fa fa-check text-primary mr-2"></i>Maîtriser les concepts fondamentaux</li>
+                                    <li class="mb-2"><i class="fa fa-check text-primary mr-2"></i>Appliquer les formules dans des cas concrets</li>
+                                    <li class="mb-2"><i class="fa fa-check text-primary mr-2"></i>Se préparer aux examens et contrôles</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6s mb-4 px-3">
+                                <h4 class="mb-3">Programme du cours</h4>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fa fa-angle-right text-primary mr-2"></i>Introduction et contexte historique</li>
+                                    <li class="mb-2"><i class="fa fa-angle-right text-primary mr-2"></i>Démonstrations et exercices pratiques</li>
+                                    <li class="mb-2"><i class="fa fa-angle-right text-primary mr-2"></i>Conclusion et évaluation finale</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                </div>
 

@@ -36,12 +36,60 @@ try {
 
     // Data for courses
     $courses = [
-        ['Algèbre Linéaire', 'Julie Leroy', 45, 'Seconde', 'cours/algebre.pdf', 'img/course_algebre_lineaire.png', 'Introduction aux matrices et aux espaces vectoriels.'],
-        ['Théorème de Pythagore', 'Mme Sophie Martin', 30, '4ème', 'cours/pythagore.pdf', 'img/course_pythagore.png', 'Maîtriser le calcul des côtés dans un triangle rectangle.'],
-        ['Calcul Littéral', 'Julie Leroy', 40, '3ème', 'cours/litteral.pdf', 'img/course_calcul_litteral.png', 'Développement, factorisation et identités remarquables.'],
-        ['Fonctions Affines', 'Dr. Marc Vasseur', 50, '2nde', 'cours/fonctions.pdf', 'img/course_fonctions_affines.png', 'Représentation graphique et étude de variations.'],
-        ['Probabilités', 'Luc Durand', 55, '1ère', 'cours/proba.pdf', 'img/course_probabilites.png', 'Calcul de chances et arbres de probabilité.'],
-        ['Géométrie dans l\'Espace', 'Mme Sophie Martin', 60, 'Terminale', 'cours/geometrie.pdf', 'img/course_geometrie_espace.png', 'Droites et plans dans l\'espace, calculs de volumes.'],
+        [
+            'Algèbre Linéaire', 
+            'Julie Leroy', 
+            45, 
+            'Seconde', 
+            'cours/algebre_lineaire.pdf', 
+            'img/course_algebre_lineaire.png', 
+            'Ce cours complet sur l\'algèbre linéaire vous permettra de maîtriser les concepts fondamentaux des matrices, des vecteurs et des systèmes d\'équations linéaires. Vous apprendrez à manipuler des espaces vectoriels, à calculer des déterminants et à comprendre les transformations linéaires. Idéal pour les élèves souhaitant approfondir leurs connaissances en mathématiques et se préparer aux études supérieures.'
+        ],
+        [
+            'Théorème de Pythagore', 
+            'Mme Sophie Martin', 
+            30, 
+            '4ème', 
+            'cours/theoreme_pythagore.pdf', 
+            'img/course_pythagore.png', 
+            'Le théorème de Pythagore est la pierre angulaire de la géométrie plane. Dans ce module, nous explorerons ses applications pratiques, de la mesure de distances inaccessibles à la résolution de problèmes complexes dans des triangles rectangles. Le cours inclut de nombreux exercices interactifs et des démonstrations visuelles pour faciliter la compréhension et la mémorisation.'
+        ],
+        [
+            'Calcul Littéral', 
+            'Julie Leroy', 
+            40, 
+            '3ème', 
+            'cours/calcul_litteral.pdf', 
+            'img/course_calcul_litteral.png', 
+            'Maîtrisez l\'art de manipuler les expressions algébriques. Ce cours couvre le développement, la factorisation, les identités remarquables et la résolution d\'équations du premier degré. À la fin de ce cours, le calcul littéral n\'aura plus de secret pour vous, vous permettant d\'aborder sereinement les chapitres plus avancés de l\'analyse mathématique.'
+        ],
+        [
+            'Fonctions Affines', 
+            'Dr. Marc Vasseur', 
+            50, 
+            '2nde', 
+            'cours/fonctions_affines.pdf', 
+            'img/course_fonctions_affines.png', 
+            'Étude approfondie des fonctions de la forme f(x) = ax + b. Nous verrons comment interpréter le coefficient directeur et l\'ordonnée à l\'origine, comment tracer des représentations graphiques précises et comment utiliser ces fonctions pour modéliser des situations concrètes du quotidien. Un module essentiel pour comprendre les bases de l\'analyse fonctionnelle.'
+        ],
+        [
+            'Probabilités', 
+            'Luc Durand', 
+            55, 
+            '1ère', 
+            'cours/probabilites.pdf', 
+            'img/course_probabilites.png', 
+            'Plongez dans le monde de l\'aléa et de l\'incertitude. Ce cours vous apprendra à calculer des probabilités simples et conditionnelles, à utiliser des arbres de probabilité et à comprendre les variables aléatoires. Nous explorerons des exemples concrets tirés des jeux de hasard, de la météorologie et des statistiques sociales pour rendre l\'apprentissage vivant et pertinent.'
+        ],
+        [
+            'Géométrie dans l\'Espace', 
+            'Mme Sophie Martin', 
+            60, 
+            'Terminale', 
+            'cours/geometrie_espace.pdf', 
+            'img/course_geometrie_espace.png', 
+            'Prenez de la hauteur avec l\'étude des objets en trois dimensions. Ce cours traite des droites, des plans, des calculs de volumes complexes et de la géométrie vectorielle dans l\'espace. Vous apprendrez à visualiser et à résoudre des problèmes spatiaux, une compétence cruciale pour de nombreux domaines scientifiques et d\'ingénierie.'
+        ],
     ];
 
     foreach ($courses as $c) {
