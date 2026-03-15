@@ -2,6 +2,9 @@
 
 Edumaths est une plateforme éducative dynamique développée en PHP et MySQL, conçue pour faciliter l'accès aux ressources pédagogiques en mathématiques. Le site permet aux étudiants de consulter des cours et de rencontrer leur équipe enseignante, tout en offrant une interface de gestion robuste pour les administrateurs.
 
+> [!NOTE]
+> **Histoire du projet** : J'ai créé ce site quand j'étais en 5ème (7th grade), à l'âge de 12 ans, dans le but d'aider les élèves du collège à mieux comprendre et réviser les mathématiques.
+
 ## 🚀 Fonctionnalités
 
 ### Interface Étudiant
@@ -34,11 +37,6 @@ Edumaths est une plateforme éducative dynamique développée en PHP et MySQL, c
 3.  **Lancer le serveur** :
     * Utiliser un environnement de développement comme XAMPP, WAMP ou MAMP.
     * Placer les fichiers dans le répertoire racine du serveur (`htdocs` ou `www`).
-
-## 📜 Licence et Crédits
-
-* **Template** : Edukate par [HTML Codex](https://htmlcodex.com).
-* **Licence** : Ce projet respecte les conditions d'utilisation définies par l'auteur du template.
 
 ---
 *Projet réalisé par Nayl Lahlou dans le cadre du développement d'outils pédagogiques numériques.*
