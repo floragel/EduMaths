@@ -52,8 +52,8 @@ $data2 = $db->query($query2);
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav mx-auto py-0">
-                    <a href="index.php" class="nav-item nav-link active">Mon Bebou</a>
                     <a href="index.php" class="nav-item nav-link active">Home</a>
+
                     <a href="course.php" class="nav-item nav-link">Courses</a>
 		            <a href="team.php" class="nav-item nav-link">Instructors</a>
                 </div>
@@ -70,7 +70,16 @@ $data2 = $db->query($query2);
             <h1 class="text-white mt-4 mb-4">Apprenez de chez vous</h1>
             <h1 class="text-white display-1 mb-5">Des cours de maths</h1>
             <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
+                <form action="course.php" method="GET">    
+                    <div class="input-group">
+                        <input name="q" type="search" class="form-control border-light" style="padding: 30px 25px;" placeholder="Rechercher un cours...">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary px-4 px-lg-5">Rechercher</button>
+                        </div>
+                    </div>
+                </form>
             </div>
+
         </div>
     </div>
     <!-- Header End -->

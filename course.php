@@ -10,6 +10,9 @@ $data = $db->query($query);
 if(isset($_GET['q']) AND !empty($_GET['q'])){
     $q = htmlspecialchars($_GET['q']);
     $data = $db->query('SELECT * FROM cours WHERE name LIKE "%'.$q.'%" ORDER BY id DESC');
+} elseif(isset($_GET['keyword']) AND !empty($_GET['keyword'])){
+    $q = htmlspecialchars($_GET['keyword']);
+    $data = $db->query('SELECT * FROM cours WHERE name LIKE "%'.$q.'%" ORDER BY id DESC');
 }
 
 ?>
@@ -76,11 +79,11 @@ if(isset($_GET['q']) AND !empty($_GET['q'])){
                 <p class="m-0 text-uppercase">Courses</p>
             </div>
             <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
-                <form method="GET">    
+                <form action="course.php" method="GET">    
                     <div class="input-group">
-                            <input name="q" type="seach" class="form-control border-light" style="padding: 30px 25px;" placeholder="Cours">
+                            <input name="q" type="search" class="form-control border-light" style="padding: 30px 25px;" placeholder="Rechercher un cours...">
                             <div class="input-group-append">
-                                <button class="btn btn-secondary px-4 px-lg-5">Rechercher</button>
+                                <button type="submit" class="btn btn-secondary px-4 px-lg-5">Rechercher</button>
                             </div>
                     </div>
                 </form>
