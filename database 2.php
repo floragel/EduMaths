@@ -6,10 +6,11 @@
     define('PASS', '');
 
     try{
-        $db = new PDO("sqlite:" . __DIR__ . "/edumaths.db");
+        $db = new PDO("mysql:host=". HOST .";dbname=". DB_NAME, USER, PASS);
+        $db->exec("set names utf8mb4");
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }catch(PDOException $e){
-        echo "Connection failed: " . $e->getMessage();
+        echo $e;
     }
 
 ?>
