@@ -1,31 +1,50 @@
-# Edumaths - Plateforme d'Aide en Mathématiques
+# EduMaths - Middle School Math Platform
 
-Edumaths est une plateforme éducative dynamique développée en PHP et MySQL, conçue pour faciliter l'accès aux ressources pédagogiques en mathématiques. Le site permet aux étudiants de consulter des cours et de rencontrer leur équipe enseignante, tout en offrant une interface de gestion robuste pour les administrateurs.
+EduMaths is a dynamic educational platform designed to help middle school students master mathematics through interactive courses and professional guidance.
 
 > [!NOTE]
-* **Gestion CRUD** : Possibilité d'ajouter, modifier ou supprimer des cours et des produits pédagogiques.
-* **Tableau de bord** : Vue d'ensemble sur le contenu existant avec outils d'édition rapide.
+> **Project History**: I created this website when I was in 7th grade (5ème) at 12 years old, with the mission of helping other students in their math journey. It has since been refined with professional assets and a modernized architecture.
 
-## 🛠️ Technologies Utilisées
+## 🖼️ Portfolio Showcase
 
-* **Backend** : PHP (gestion des sessions et logique métier).
-* **Base de Données** : MySQL (via extension PDO).
-* **Frontend** : HTML5, CSS3 (Bootstrap 4), JavaScript.
-* **Design** : Basé sur le template "Edukate" de HTML Codex.
+````carousel
+![Home Page](portfolio_assets/home.png)
+<!-- slide -->
+![Courses Page](portfolio_assets/courses.png)
+<!-- slide -->
+![Instructors Page](portfolio_assets/team.png)
+<!-- slide -->
+![Detail Page](portfolio_assets/detail.png)
+````
 
-## 📦 Installation Locale
+## 🚀 Key Features
+- **Comprehensive Course Catalog**: Interactive lessons covering Algebra, Geometry, and Probability.
+- **Expert Instructor Profiles**: Detailed backgrounds of educators specialized in middle school curriculum.
+- **Intelligent Search**: Global search functionality to quickly find specific topics across the platform.
+- **Responsive Architecture**: Fully responsive design with high-quality, optimized imagery.
 
-1.  **Cloner le projet** :
-    ```bash
-    git clone https://github.com/floragel/EduMaths.git
-    ```
-2.  **Configurer la base de données** :
-    * Créer une base de données nommée `edumaths`.
-    * Vérifier les identifiants de connexion (`localhost`, `root`, etc.) dans le fichier `database.php`.
-3.  **Lancer le serveur** :
-    * Utiliser un environnement de développement comme XAMPP, WAMP ou MAMP.
-    * Placer les fichiers dans le répertoire racine du serveur (`htdocs` ou `www`).
+## 🛠️ Technology Stack
+- **Backend**: PHP 8.x
+- **Database**: SQLite (Zero-configuration database for easy local setup)
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap 4
+- **Design**: Professional UI refined with modern typography and AI-augmented imagery.
+
+## 🚦 Getting Started
+To run this project locally:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/floragel/EduMaths.git
+   ```
+2. **Initialize the Database**:
+   ```bash
+   php init_sqlite.php
+   ```
+3. **Start the PHP server**:
+   ```bash
+   php -S localhost:8000
+   ```
+4. **Access the platform**: Open `http://localhost:8000` in your browser.
 
 ---
-*Projet réalisé par Nayl Lahlou dans le cadre du développement d'outils pédagogiques numériques.*
-
+*Developed by Nayl Lahlou.*
